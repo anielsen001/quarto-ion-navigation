@@ -3,7 +3,6 @@ title: Navigation Template
 format:
   navigation-pdf:
     keep-tex: true
-    #latex-tlmgr-opts: 
     latex-tinytex: false
     latex-auto-install: true
   navigation-html: default
@@ -26,11 +25,12 @@ author:
 abstract: |
   This document is a template demonstrating the Navigation format.
 keywords: [template, demo]
-bibliography: bibliography.bib  
+bibliography: bibliography.bib
+csl: apa.csl
 ---
 
 ## Introduction {#sec-intro}
 
-*TODO* Create a template that demonstrates the appearance, formatting, layout, and functionality of your format. Learn more about journal formats at <https://quarto.org/docs/journals/>.
+*TODO* Create a template that demonstrates the appearance, formatting, layout, and functionality of your format. Learn more about journal formats at <https://quarto.org/docs/journals/>. See [@CameronTrivedi2013]
 
 
