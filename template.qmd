@@ -88,5 +88,8 @@ Secure files can cause problems with: opening the document; printing the documen
 
 Any acknowledgements should appear just before the references section at the END of the paper.
 
+## Bibliography
 
+:::{#refs}
+:::
 
