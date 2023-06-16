@@ -2,7 +2,10 @@
 title: Navigation Template
 format:
   navigation-pdf:
-    keep-tex: true  
+    keep-tex: true
+    #latex-tlmgr-opts: 
+    latex-tinytex: false
+    latex-auto-install: true
   navigation-html: default
 author:
   - name: Sarah Malloc
