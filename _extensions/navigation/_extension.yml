@@ -9,9 +9,11 @@ contributes:
       filters:
         - navigation.lua
     pdf:
-      documentclass: apa7
+      #documentclass: apa7
+      documentclass: IONconf
       include-in-header: header.tex
       format-resources:
+        - IONconf.cls
         - apa.csl
     html:
       css: styles.css

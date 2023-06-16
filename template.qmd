@@ -26,7 +26,6 @@ abstract: |
   This document is a template demonstrating the Navigation format.
 keywords: [template, demo]
 bibliography: bibliography.bib
-csl: apa.csl
 ---
 
 ## Introduction {#sec-intro}
