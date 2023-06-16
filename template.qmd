@@ -23,7 +23,7 @@ author:
     affiliations:
       - Another Affiliation
 abstract: |
-  This document is a template demonstrating the Navigation format.
+  This document is a template demonstrating the Navigation format. The abstracts must be 300 words maximum.
 keywords: [template, demo]
 bibliography: bibliography.bib
 ---
@@ -31,5 +31,62 @@ bibliography: bibliography.bib
 ## Introduction {#sec-intro}
 
 *TODO* Create a template that demonstrates the appearance, formatting, layout, and functionality of your format. Learn more about journal formats at <https://quarto.org/docs/journals/>. See [@CameronTrivedi2013]
+
+## Introduction
+
+This document serves as a \LaTeX  draft for paper submissions to conferences of the Institute of Navigation (ION). It is intended to support and facilitate manuscript preparation for authors.
+
+## Paper organization
+
+Paper may be broken into sub-sections as desired. Sub-section titles should be writting in title case. First-level headings should be numbered, flush left, bold, and written in title case; text begings on a new line (indent first line). Second-level headings should be numbered, flush left, bold italic, and written in title case; text begins on a new line (indent first line). Thried-level headings should be unnumbered, indented, bold, title case, and ending with a period; text shoudl begin on the same line. Fourth-level headings should be unnumbered, indented, bold, italic, title case, and ending with a period; text should begin on the same line.
+
+Papers submitted for peer review should not exceed the Maximum of 15 Pages. There is no page limit for papers not undergoing the peer review process.\\
+Full justify your text. Use automatic hyphenation and check spelling. Digitize or paste down figures.\\
+Disclaimers or notes should be placed at the end of the article just prior to references.
+
+### Use of figures
+
+Incorporate graphics in the body of the text, centered within the text. Figure numbers should appear at the bottom of the figure in bold font followed by the figure title/caption. Give each figure a brief but descriptive title, and capitalize the figure title in italic title case.
+
+### Use of tables
+
+Tables should be centered within the text. The table number should appear above the table title and body in bold font. Number the tables in the order in which they are mentioned in your paper. The title of the table should appear one double-spaced line below the table number.
+
+### References
+
+For the time being biblatex-apa is the only implementation of 7th-ed. APA citation and bibliography style. Note that you need at least version 9.0 (released 2019-11-23) of biblatex-apa (\url{https://ctan.org/pkg/biblatex-apa}).
+
+In particular a document using biblatex-apa must be compiled with Biber instead of BibTeX (some background is at bibtex vs. biber  -- \url{https://tex.stackexchange.com/questions/25701/bibtex-vs-biber-and-biblatex-vs-natbib}), so you may have to reconfigure your editor:
+Biblatex with Biber: Configuring my editor to avoid undefined citations
+\url{https://tex.stackexchange.com/questions/154751/biblatex-with-biber-configuring-my-editor-to-avoid-undefined-citations}.
+
+
+In 2023, the ION switched to the APA7 style reference formatting. References should be listed in alphabetical order in the text, and should appear at the end of the paper. Follow the APA style according to the 7th Edition Publication Manual of the American Psychological Association.
+In this template, the \textit{biblatex} package is used. This matches the ION formatting guidelines very well while using BibTex.
+Use \verb|\citep{}| or \verb|\autocite| and \verb|\citet{}| or \verb|\textcitet| as desired.
+
+
+## Language
+
+Your paper must be in English.
+
+## Additional instructions for authors
+
+Electronic files (PDF File) should be uploaded the ION’s Abstract Management Portal at <www.ion.org/abstracts>. If your paper was created in \LaTeX, convert to PDF file before submitting.
+
+
+## Acceptable software
+
+Adope Acrobat PDF files.
+
+ION cannot accept \LaTeX files, all \LaTeX documents must be converted to PDF file prior to submission. Make sure the file is formatted properly before uploading to the AMP.  Documents converted from the \LaTeX or TeX typesetting language into the Adobe’s Postscript of PDF files usually contain fixed-resolution bitmap fonts that do not print or display well on a variety of printer and computer screens.
+
+Secure files can cause problems with: opening the document; printing the document; indexing for searchability on the CD-ROM. \textbf{\large{Please do not secure your files.}}
+
+
+## Acknowledgements
+
+Any acknowledgements should appear just before the references section at the END of the paper.
+
 
 
