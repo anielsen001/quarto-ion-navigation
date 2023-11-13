@@ -1,5 +1,5 @@
 ---
-title: Navigation Template
+title: ION Navigation Journal Template
 format:
   navigation-pdf:
     keep-tex: true
@@ -15,11 +15,13 @@ author:
         city: Boston
         country: USA
         postal-code: 02210-1022
-      - A second affilication
+      - name: A second affiliation
+    biography: A super smart person 
     orcid: 0000-0000-0000-0000
     email: sm@example.org
     url: https://example.org/
   - name: Eliza Dealloc
+    biography: Another super smart person 
     affiliations:
       - Another Affiliation
 abstract: |

@@ -10,11 +10,15 @@ contributes:
         - navigation.lua
     pdf:
       #documentclass: apa7
+      pdf-engine: pdflatex
       documentclass: IONconf
       include-in-header: header.tex
       format-resources:
         - IONconf.cls
         - apa.csl
+      template-partials:
+        - partials/doc-class.tex
+        - partials/before-body.tex
     html:
       css: styles.css
       csl: https://www.zotero.org/styles/apa

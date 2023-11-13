@@ -1,6 +1,109 @@
-% TODO: Add custom LaTeX header directives here
-\usepackage{orcidlink}
-\usepackage{amsmath}
-\usepackage[T1]{fontenc}
 
+% This header directives are copied from IONconf_template_apa7.tex 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Common packages to import
+
+% ### MATH PACKAGE
+\usepackage{amsmath}
+\usepackage{amssymb}
+% Popular packages from the American Mathematical Society that provide
+% many useful and powerful commands for dealing with mathematics.
+% If bold math operators are desired, the bm package is suggested
+\usepackage{bm}
+% its documentation can be found at http://www.ctan.org/pkg/bm
+
+
+
+% ### GRAPHICS PACKAGE
+%\usepackage[pdftex]{graphicx}
+% to ensure centered multiline captions, the centering package should
+% be called as well.
+%\usepackage[justification=centering]{caption}
+% To use the subfigures command, the subcaption package should be
+% called as well.
+%\usepackage{subcaption}
+% To declare the path(s) where your graphic files are use
+% \graphicspath{{figures/}}
+% To declare their extensions so you won't have to specify these with
+% every instance of \includegraphics:
+% \DeclareGraphicsExtensions{.pdf,.jpeg,.png}
+% graphicx was written by David Carlisle and Sebastian Rahtz. It is
+% required if you want graphics, photos, etc. graphicx.sty is already
+% installed on most LaTeX systems. The latest version and documentation
+% can be obtained at:
+% http://www.ctan.org/pkg/graphicx
+% A good introduction to inserting figures in a document can be found
+% at:
+% https://www.overleaf.com/learn/latex/How_to_Write_a_Thesis_in_
+% 	LaTeX_(Part_3):_Figures,_Subfigures_and_Tables
+% Another good source of documentation is "Using Imported Graphics in
+% LaTeX2e" by Keith Reckdahl which can be found at:
+% http://www.ctan.org/pkg/epslatex
+%
+% latex, and pdflatex in dvi mode, support graphics in encapsulated
+% postscript (.eps) format. pdflatex in pdf mode supports graphics
+% in .pdf, .jpeg, .png and .mps (metapost) formats. Users should ensure
+% that all non-photo figures use a vector format (.eps, .pdf, .mps) and
+% not a bitmapped formats (.jpeg, .png).
+
+
+
+% ### ALGORITHM PACKAGE
+\usepackage{algorithmic}
+% This package provides an algorithmic environment to describing algorithms.
+% You can use the algorithmic environment in-text or within a figure
+% environment to provide for a floating algorithm.
+
+
+
+% ### TABLE AND ALIGNMENT PACKAGE
+\usepackage{array}
+% Frank Mittelbach's and David Carlisle's array.sty patches and improves
+% the standard LaTeX2e array and tabular environments to provide better
+% appearance and additional user controls.
+
+
+
+% ### URL PACKAGE
+\usepackage{url}
+% url.sty was written by Donald Arseneau. It provides better support for
+% handling and breaking URLs. url.sty is already installed on most LaTeX
+% systems. The latest version and documentation can be obtained at:
+% http://www.ctan.org/pkg/url
+% Basically, \url{my_url_here}.
+
+% ### BIBL:ATEX PACKAGE
+% \usepackage[%
+% backend=biber,
+% natbib=true,
+% style=apa,
+% ]{biblatex}
+
+% \addbibresource{bib_example.bib}
+
+%APA7
+%For the time being biblatex-apa is the only implementation of 7th-ed. APA citation and bibliography style. Note that you need at least version 9.0 (released 2019-11-23) of biblatex-apa (https://ctan.org/pkg/biblatex-apa).
+%
+%In particular a document using biblatex-apa must be compiled with Biber instead of BibTeX (some background is at bibtex vs. biber  - https://tex.stackexchange.com/questions/25701/bibtex-vs-biber-and-biblatex-vs-natbib), so you may have to reconfigure your editor:
+%Biblatex with Biber: Configuring my editor to avoid undefined citations
+%https://tex.stackexchange.com/questions/154751/biblatex-with-biber-configuring-my-editor-to-avoid-undefined-citations.
+
+
+% ### HYPERLINKS PACKAGE
+\usepackage[hidelinks]{hyperref}
+% This package is used to emend cross-referencing commands in LaTeX to
+% produce some sort of \special commands; there are backends for the
+% special set defined for HyperTeX dvi processors, for embedded pdfmark
+% commands for processing by Acrobat Distiller (dvips and dvipsone), for
+% dviwindo, for pdfTeX, for dvipdfm, for TeX4ht, and for VTEX's pdf and
+% HTML backends.
+% Needs to be loaded AFTER other packages as it overwrites many standard
+% commands.
+% See: https://ctan.org/pkg/hyperref?lang=en
+
+
+
+%%% this is required to generate multiple author information correctly.
 \renewcommand{\and}{\\}
