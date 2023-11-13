@@ -7,23 +7,27 @@ format:
     latex-auto-install: true
   navigation-html: default
 author:
-  - name: Sarah Malloc
+  - name: First Author
+    # not sure how to handle multiple affiliations per author with ION format 
     affiliations:
-      - name: An Organization
-        department: The Department
-        address: 1 Main St
-        city: Boston
-        country: USA
-        postal-code: 02210-1022
-      - name: A second affiliation
+      - ref: affiliation1
     biography: A super smart person 
     orcid: 0000-0000-0000-0000
     email: sm@example.org
     url: https://example.org/
-  - name: Eliza Dealloc
+  - name: Second Author
     biography: Another super smart person 
     affiliations:
-      - Another Affiliation
+      - ref: affiliation2
+  - name: Third Author
+    biography: A third super smart person 
+    affiliations:
+      - ref: affiliation1
+affiliations:
+  - id: affiliation1
+    name: An Organization
+  - id: affiliation2
+    name: Another Organization 
 abstract: |
   This document is a template demonstrating the Navigation format. The abstracts must be 300 words maximum.
 keywords: [template, demo]

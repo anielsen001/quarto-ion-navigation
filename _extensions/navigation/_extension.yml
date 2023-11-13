@@ -18,6 +18,7 @@ contributes:
         - apa.csl
       template-partials:
         - partials/doc-class.tex
+        - partials/title.tex
         - partials/before-body.tex
     html:
       css: styles.css

@@ -1,0 +1,12 @@
+$if(title)$
+\title{$title$}
+$endif$
+
+\author{%
+$for(by-affiliation)$
+$for(by-affiliation.authors)$$it.name.literal$,\ $endfor$ \textit{$by-affiliation.name$}%
+\vspace{1mm} \\%
+$endfor$
+}
+
+

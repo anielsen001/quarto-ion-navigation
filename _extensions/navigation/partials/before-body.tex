@@ -1,0 +1,15 @@
+\maketitle
+
+$if(author)$
+\section*{Biography}
+$for(by-author)$
+
+\biography{$by-author.name.literal$}{$by-author.metadata.biography$}
+
+$endfor$
+$endif$
+
+$if(abstract)$
+\section*{Abstract}
+$abstract$
+$endif$
