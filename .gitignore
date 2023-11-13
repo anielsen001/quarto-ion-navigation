@@ -1,0 +1,6 @@
+/.luarc.json
+
+template.tex
+template.pdf
+
+*.fdb_latexmk
