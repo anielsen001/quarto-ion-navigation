@@ -1,5 +1,13 @@
 
-# <%= title %>
+# ION Navigation Journal format
+
+## TODOs
+
+- [ ] put acknowledgements in appropriate place
+
+## Unknowns
+
+- Not sure how to handle multiple affiliations per author
 
 ## Creating a New Article
 
